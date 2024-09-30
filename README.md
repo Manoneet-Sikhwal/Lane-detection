@@ -1,6 +1,2 @@
-# Lane-segmentation
-• Lane segmentation for self driving cars
-– Implemented a lane segmentation system for self-driving cars using deep learning techniques for precise lane boundary
-identification.
-– Utilized convolutional neural networks (CNNs) to segment lanes in complex driving environments under diverse weather
-conditions.
+# Lane-Detection
+Developed and evaluated a duo-modular deep learning framework for precise lane detection by leveraging the U-Net and SegNet architectures. Trained on 16,424 images with ground truth labels from the CARLA driving simulator, the U-Net model achieved a test loss of 0.00089, test binary accuracy of 0.985, and test IoU of 1.0, outperforming the SegNet model's test loss of 0.00082, accuracy of 0.985, and IoU of 1.0. Incorporating architectural enhancements like batch normalization, dropout regularization, and weighted loss functions enhanced robustness. Exhaustive qualitative analysis highlighted U-Net's visual clarity in demarcating lane boundaries. The findings demonstrate the efficacy of the synergistic framework for robust lane detection across diverse driving scenarios, paving the way for improved autonomous vehicle navigation and driver assistance systems.
